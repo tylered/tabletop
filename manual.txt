@@ -1,0 +1,12 @@
+instruction manual
+
+1. enter in restaurant and location in specified text boxes
+2. click on "restaurant" button to access dropdown menu for restaurants
+3. click on "find ratings" to calculate ratings
+4. click on "quit" to leave the application
+
+additional:
+
+1. click on menu to return back to home
+2. click on "back to list" to go back to restaurant dropdown
+ 
