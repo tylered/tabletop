@@ -1,0 +1,58 @@
+<WindowManager>:
+    Home:
+    Window1:
+
+
+<Home>:
+
+    name: "Home"
+    canvas.before:
+        Color:
+            rgba: (1, 1, 1, 1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    cols: 1
+
+    BoxLayout:
+        height: 100
+        orientation: "vertical"
+        size: root.width, root.height
+
+        Image:
+            source: "4ebde54713bedbdc62ec3a4c8184193e.png"
+            size: self.texture_size
+
+        Label:
+            text: "Enter location:"
+            font_size: 32
+            color: 0,0,0,1
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+
+        TextInput:
+            hint_text:'Enter text'
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+            size_hint: 0.5, 0.5
+            padding_y: (20, 20)
+
+        Label:
+            text: "Enter restaurant:"
+            font_size: 32
+            color: 0,0,0,1
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+
+        TextInput:
+            hint_text:'Enter text'
+            pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+            size_hint: 0.5, 0.5
+
+
+        Button:
+            text: "Return to menu"
+
+
+<Window1>:
+    name: "Second"
+
+
